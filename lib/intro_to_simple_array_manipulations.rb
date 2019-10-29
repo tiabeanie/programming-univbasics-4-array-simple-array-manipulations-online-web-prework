@@ -18,7 +18,7 @@ end
 def pop_with_args(array)
   dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
   small_dogs = dog_breeds.pop(2)
-  p dog_breeds
+  p small_dogs
 end
 
 def using_shift(array)
@@ -33,8 +33,7 @@ end
 
 def using_concat(array1, array2)
   my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
-    more_favs = ["sports cars", "flatiron school"]
-  all_my_favs = using_concat(@my_favorite_things, more_favs)
+  more_favs = ["sports cars", "flatiron school"]
   my_favorite_things.concat(all_my_favs)
 end
 
